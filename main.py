@@ -1,16 +1,26 @@
-# This is a sample Python script.
+# import requests
+# url = 'http://api.weatherapi.com/v1'
+# response = requests.get(url + '/current.json', params={'key': 'f32b2cd7fe364abd8d8182803230603', 'q': 'Tashkent'})
+# datas = response.json()
+# for data in datas:
+#     print(data)
+#     for key,value in datas.items():
+#         print(key, value)
+#         print('\n')
+#
+# for i in datas[data]:
+#     for key, value in i.items():
+#         print( key, value)
+#     print("\n")
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+# import requests
+#
+# url = 'http://api.weatherapi.com/v1'
+# r = requests.get(url + '/current.json', params={'key': 'f32b2cd7fe364abd8d8182803230603', 'q': 'Tashkent'})
+# coin = r.json()
+# for i in coin:
+#     print(i, ":")
+#     for key, value in coin[i].items():
+#         print(" ", key, value)
+#     print("\n")
